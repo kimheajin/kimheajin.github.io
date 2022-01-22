@@ -1,40 +1,28 @@
 ---
 layout: post
-title: "This post demonstrates post content styles"
-categories: junk
-author: "Bart Simpson"
-meta: "Springfield"
+title: "첫 번째 Jekyll 포스팅"
+categories: introduce
+author: "Kim Heajin"
+meta: "Korea"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
+이 글은 첫 번째 Jekyll 포스트 입니다.
 
-## Some great heading (h2)
+## h2수준의 제목은 앞에 '##'를 붙여 입력합니다.
 
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.
+또한, 해당 글머리 아래에 '##'을 붙이지 않고 글을 입력하면 일반 글쓰기가 됩니다.
 
-Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+### h3수준의 제목을 원한다면, 제목 앞에 '###'를 입력합니다.
 
-## Another great heading (h2)
+###를 붙이는 것 만으로 제목 작성을 할 수 있습니다.
+단, ###와 제목 사이에는 스페이스를 이용해 띄워주어야 합니다.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
+> 또한, 꺽세기호를 통하여 이탤릭 글씨를 작성해 강조할 수도 있습니다.
 
-### Some great subheading (h3)
+### html코드를 작성하는 방법에 대하여
 
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.
-
-Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
-
-### Some great subheading (h3)
-
-Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
-> This quote will change your life. It will reveal the secrets of the universe, and all the wonders of humanity. Don't misuse it.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.
-
-### Some great subheading (h3)
-
-Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.
+html코드를 작성하기 위해서는 아래와 같이 작성하여야 합니다.
+'```'를 앞에 붙이는 것은 속성을 위해서 입니다. 이것은 시작과 끝에 붙게 됩니다.
 
 ```html
 <html>
@@ -45,56 +33,52 @@ Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin con
 </html>
 ```
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+번외편으로 JAVA코드를 작성할 수도 있다.
+```java
 
-#### You might want a sub-subheading (h4)
+public void name{
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+  int number;
+  String name;
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+  name = "Hello, World!";
 
-#### But it's probably overkill (h4)
+  System.out.println(name);
+}
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+```
 
-### Oh hai, an unordered list!!
+#### '####'를 붙여주면 h4수준의 소제목을 작성할 수 있습니다.
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+이것은 제일 작은 소제목 입니다.
 
-- First item, yo
-- Second item, dawg
-- Third item, what what?!
-- Fourth item, fo sheezy my neezy
+### 글머리 기호에 대하여
 
-### Oh hai, an ordered list!!
+아래와 같이 입력할 경우 글머리 기호를 작성할 수 있습니다.
 
-In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+- 하나
+- 둘
+- 셋
+- 넷
 
-1. First item, yo
-2. Second item, dawg
-3. Third item, what what?!
-4. Fourth item, fo sheezy my neezy
+### 숫자 리스트에 대하여
 
-## Headings are cool! (h2)
+아래와 같이 입력할 경우 숫자 번호를 작성할 수 있습니다.
 
-Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+1. 하나
+2. 둘
+3. 셋
+4. 넷
 
-Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+## 표를 작성하기 위해서
 
-Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.
+표를 작성하기 위해서는 아래와 같이 긴 막대기나 '-'로 표시하여 나타낼 수 있습니다.
 
 ### Tables
 
-| Title 1               | Title 2               | Title 3               | Title 4               |
+| 첫 번째 타이틀 | 두 번째 타이틀 | 세 번째 타이틀 | 네 번째 타이틀 |
 | --------------------- | --------------------- | --------------------- | --------------------- |
-| lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit |
-| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
-| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
-| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
-
-| Title 1                    | Title 2                                | Title 3                    | Title 4                                |
-| -------------------------- | -------------------------------------- | -------------------------- | -------------------------------------- |
-| lorem                      | lorem ipsum                            | lorem ipsum dolor          | lorem ipsum dolor sit                  |
-| lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit                  |
-| lorem ipsum dolor          | lorem ipsum                            | lorem                      | lorem ipsum                            |
-| lorem ipsum dolor          | lorem ipsum dolor sit                  | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur |
+| 코드 상에서 줄을 | 맞추지 않아도 알아서 | 맞춰지기 때문에 | 자유도가 높습니다. |
+| 일번 | 이번 | 삼번 | 사번 |
+| 하나 | 둘 | 셋 | 넷 |
+| 첫단 | 둘째단 | 셋째단 | 넷째단 |

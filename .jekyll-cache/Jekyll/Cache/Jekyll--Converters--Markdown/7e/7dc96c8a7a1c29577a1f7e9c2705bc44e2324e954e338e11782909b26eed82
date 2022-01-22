@@ -1,0 +1,111 @@
+I"�<p>이 글은 첫 번째 Jekyll 포스트 입니다.</p>
+
+<h2 id="h2수준의-제목은-앞에-를-붙여-입력합니다">h2수준의 제목은 앞에 ‘##’를 붙여 입력합니다.</h2>
+
+<p>또한, 해당 글머리 아래에 ‘##’을 붙이지 않고 글을 입력하면 일반 글쓰기가 됩니다.</p>
+
+<h3 id="h3수준의-제목을-원한다면-제목-앞에-를-입력합니다">h3수준의 제목을 원한다면, 제목 앞에 ‘###’를 입력합니다.</h3>
+
+<p>###를 붙이는 것 만으로 제목 작성을 할 수 있습니다.
+단, ###와 제목 사이에는 스페이스를 이용해 띄워주어야 합니다.</p>
+
+<blockquote>
+  <p>또한, 꺽세기호를 통하여 이탤릭 글씨를 작성해 강조할 수도 있습니다.</p>
+</blockquote>
+
+<h3 id="html코드를-작성하는-방법에-대하여">html코드를 작성하는 방법에 대하여</h3>
+
+<p>html코드를 작성하기 위해서는 아래와 같이 작성하여야 합니다.
+‘```‘를 앞에 붙이는 것은 속성을 위해서 입니다. 이것은 시작과 끝에 붙게 됩니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span> <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<p>번외편으로 JAVA코드를 작성할 수도 있다.</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="kd">public</span> <span class="kt">void</span> <span class="n">name</span><span class="o">{</span>
+
+  <span class="kt">int</span> <span class="n">number</span><span class="o">;</span>
+  <span class="nc">String</span> <span class="n">name</span><span class="o">;</span>
+
+  <span class="n">name</span> <span class="o">=</span> <span class="s">"Hello, World!"</span><span class="o">;</span>
+
+  <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">name</span><span class="o">);</span>
+<span class="o">}</span>
+
+</code></pre></div></div>
+
+<h4 id="를-붙여주면-h4수준의-소제목을-작성할-수-있습니다">’####’를 붙여주면 h4수준의 소제목을 작성할 수 있습니다.</h4>
+
+<p>이것은 제일 작은 소제목 입니다.</p>
+
+<h3 id="글머리-기호에-대하여">글머리 기호에 대하여</h3>
+
+<p>아래와 같이 입력할 경우 글머리 기호를 작성할 수 있습니다.</p>
+
+<ul>
+  <li>하나</li>
+  <li>둘</li>
+  <li>셋</li>
+  <li>넷</li>
+</ul>
+
+<h3 id="숫자-리스트에-대하여">숫자 리스트에 대하여</h3>
+
+<p>아래와 같이 입력할 경우 숫자 번호를 작성할 수 있습니다.</p>
+
+<ol>
+  <li>하나</li>
+  <li>둘</li>
+  <li>셋</li>
+  <li>넷</li>
+</ol>
+
+<h2 id="표를-작성하기-위해서">표를 작성하기 위해서</h2>
+
+<p>표를 작성하기 위해서는 아래와 같이 긴 막대기나 ‘-‘로 표시하여 나타낼 수 있습니다.</p>
+
+<h3 id="tables">Tables</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>첫 번째 타이틀</th>
+      <th>두 번째 타이틀</th>
+      <th>세 번째 타이틀</th>
+      <th>네 번째 타이틀</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>코드 상에서 줄을</td>
+      <td>맞추지 않아도 알아서</td>
+      <td>맞춰지기 때문에</td>
+      <td>자유도가 높습니다.</td>
+    </tr>
+    <tr>
+      <td>일번</td>
+      <td>이번</td>
+      <td>삼번</td>
+      <td>사번</td>
+    </tr>
+    <tr>
+      <td>하나</td>
+      <td>둘</td>
+      <td>셋</td>
+      <td>넷</td>
+    </tr>
+    <tr>
+      <td>첫단</td>
+      <td>둘째단</td>
+      <td>셋째단</td>
+      <td>넷째단</td>
+    </tr>
+  </tbody>
+</table>
+:ET
